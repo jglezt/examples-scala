@@ -28,7 +28,7 @@ import org.apache.flink.util.Collector
 object AverageSensorReadings {
 
   /** main() defines and executes the DataStream program */
-  def main(args: Array[String]) {
+  def main(args: Array[String]): Unit = {
 
     // set up the streaming execution environment
     val env = StreamExecutionEnvironment.getExecutionEnvironment
